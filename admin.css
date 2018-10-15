@@ -1,0 +1,32 @@
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #bdcff5;
+}
+
+#userTbl>tbody>tr>th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#userTbl>tbody>tr>td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.overlay {
+    background-color: #5a4141;
+    display: none;
+    position: fixed;
+    opacity: 0.5;
+    background-image: url(blue_loading.gif);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    background-size: 100px;
+}
+
+.form-inline .form-control {
+    width: -webkit-fill-available;
+}
